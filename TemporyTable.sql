@@ -1,34 +1,12 @@
-select * from School_Details
+create table #subject(sid int,s_name varchar(25))
 
-create table #Subject_Details(
-sub_id int,
-sub_name varchar(25),
-noOfStudents int,
+insert into #subject values(1,'maths')
 
-primary key (sub_id)
+insert into #subject values(2,'english')
 
+insert into #subject values(3,'ict')
 
-)
+insert into #subject values(4,'history')
 
-select * from #Subject_Details
-
-insert into #Subject_Details values(
-1,'english',100)
-
-
-insert into #Subject_Details values(
-2,'maths',200)
-
-
-insert into #Subject_Details values(
-3,'ict',450)
-
-
-insert into #Subject_Details values(
-4,'history',325)
-
-
-insert into #Subject_Details values(
-5,'econ',75)
-
-select * from #Subject_Details
+select * 
+from #subject
