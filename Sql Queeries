@@ -1,0 +1,4 @@
+SELECT SUM(payment_amount) AS "Total Amount"
+FROM payment
+
+SELECT COUNT(*) FROM customer;
