@@ -1,0 +1,8 @@
+INSERT INTO model (model_id, model_type,model_category,weekly_rate,monthly_rate)
+VALUES (1,"basic","basic",50,100);
+
+INSERT INTO model (model_id, model_type,model_category,weekly_rate,monthly_rate)
+VALUES (2,"intermidiate","intermidiate",100,200,400);
+
+INSERT INTO model (model_id, model_type,model_category,weekly_rate,monthly_rate)
+VALUES (3,"basic","basic",250,500,1000);
